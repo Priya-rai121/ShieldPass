@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(151, 209, 228);
 }
 
 nav {
@@ -19,19 +20,26 @@ nav {
     margin: 0 23px;
     font-weight: 800;
     font-size: 25px;
+    background-color: rgb(40, 3, 104);
     cursor: pointer;
+    border: 2px black solid;
+    border-radius: 30%;
 }
 
 ul {
     display: flex;
     margin: 0 23px;
     align-items: center;
+    background-color: rgb(21, 3, 134);
 }
 
 ul > li {
     list-style: none;
     margin: 0 13px;
     cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 30%;
 }
 
 ul > li:hover{
